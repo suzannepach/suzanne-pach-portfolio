@@ -1,0 +1,204 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 24px;
+}
+
+h1, h3 {
+    font-family: "Yeseva One", serif;
+}
+
+h3 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+/***** NAV-BAR *****/
+
+#navbar {
+    background-color: #ffffff;
+    overflow: auto;
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navbar a {
+    text-decoration: none;
+}
+
+#navbar h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#name {
+    color: #89AB52;
+    font-family: "Yeseva One", serif;
+    font-size: 36px;
+}
+
+nav {
+    float: right;
+    padding-top: 25px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #89AB52;
+    font-size: 24px;
+    padding-left: 40px; 
+    text-transform: uppercase;
+}
+
+/***** HEADER *****/
+
+#header {
+    overflow: auto;
+    padding: 140px 0;
+}
+
+#header h2 {
+    font-size: 48px;
+    font-weight: 400;
+    padding-top: 10px;
+} 
+
+/***** ABOUT *****/
+
+#about {
+    background-color: #89AB52;
+    overflow: auto;
+    padding: 120px 0;
+}
+
+#about .full-width {
+    text-align: center;
+}
+
+#about h3 {
+    color: white;
+}
+
+#about img {
+    border: 6px solid #ffffff;
+    width: 260px;
+}
+
+#about h4 {
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+#about p {
+    color: #ffffff;
+    margin: auto;
+    margin-top: 20px;
+    width: 600px;
+}
+
+/***** WORK *****/
+
+#work {
+    overflow: auto;
+    padding: 140px 0;
+} 
+
+#work .full-width {
+    text-align: center;
+}
+
+#work h3 {
+    color: #89AB52;
+}
+
+#work .third-width {
+    box-sizing: border-box;
+    padding: 15px;
+    width: 33.333%;
+}
+
+#work img {
+    border: 1px solid #EFEEEF;
+    width: 375px;
+}
+
+#work h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+/***** CONTACT *****/
+
+#contact {
+    background-color: #89AB52;
+    clear: both;
+    text-align: center;
+}
+
+#contact .full-width {
+    overflow: auto;
+    padding: 140px 0;
+}
+
+#contact h3, #contact h4, #contact a, #contact p {
+    color: white;
+}
+
+#contact h4 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#contact img {
+    height: 40px;
+}
+
+#contact #envelope {
+    height: 35px;
+}
+
+#contact a {
+    padding: 0 10px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+#contact p {
+    margin: 0;
+}
+
+#copyright {
+    font-size: 18px;
+    padding-bottom: 5px;
+}
